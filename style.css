@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452)
+    
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    border-radius: 16px;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    font-size:25px;
+    width: 66px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+}
+#equalbutton{
+    color: #6dee0a;
+}
+#button1{
+    background-color: orangered;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 294px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
